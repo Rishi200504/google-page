@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Google</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            height: 100dvh;
+            width: 100dvw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            background-image: url(glg.png);
+
+        }
+
+        .first {
+            height: 300px;
+            width: 400px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 70px
+
+        }
+
+        .head {
+            font-size: 120px;
+            display: flex;
+            justify-content: center;
+            margin-bottom:30px;
+
+        }
+
+        .a {
+            background-color: white;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 400px;
+            display: flex;
+            padding:8px
+        }
+
+        .b {
+            font-size: 17px;
+            border: none;
+            outline: none;
+            width: 350px;
+
+        }
+
+        .i {
+            cursor: pointer;
+        }
+
+        .icon{
+            width: 80px;
+            height: 100px;
+            background-color: rgba(255, 255, 255, 0.051);
+            margin: 50px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            transition: 0.5s all ease;
+            cursor: pointer;
+        }
+        .menu{
+            width: 100%;
+            text-align: end; 
+            color: rgba(240, 248, 255, 0);  
+        }
+
+        .icon:hover{
+           background-color: rgba(2, 8, 13, 0.404);
+           .menu{
+            color: white;
+
+           }
+        }
+
+
+
+         .circle {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.033);
+            border-radius: 30px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .group{
+            justify-content: space space-evenly;
+            display: flex;
+            align-items: center;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <h1 class="head">Google</h1>
+            <div class="a">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <form action="https://www.google.com/search" method="get">
+                    <input type="text" name="q" id="" placeholder="Search Google or type a URL" class="b">
+                </form>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-camera"></i>
+
+            </div>
+            <div class="group">
+                <div class="icon">
+                    <div class="menu">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                    <div class="circle">
+                     <form>
+                        <img src="you.png" width="50px">
+
+                     </form>   
+
+                    </div>
+
+                </div>
+                <div class="icon">
+                    <div class="menu">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                    <div class="circle">
+                        <form>
+                        <img src="new.png" width="50px">    
+                        </form>
+
+                    </div>
+
+                </div>
+                <div class="icon">
+                    <div class="menu">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                    <div class="circle">
+                        <form>
+                            <img src="image.png" width="50px"> 
+
+                        </form>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            
+
+</body>
+
+</html>
